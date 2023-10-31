@@ -1,0 +1,30 @@
+body {
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid_container {
+    display: grid;
+    width: 400px;
+    height: 400px;
+}
+
+/* :root {
+  --grid-cols: 1;
+  --grid-rows: 1;
+}
+
+#container {
+  display: grid; DONE
+  grid-gap: 1em; DONE
+  grid-template-rows: repeat(var(--grid-rows), 1fr); DONE
+  grid-template-columns: repeat(var(--grid-cols), 1fr); DONE
+}
+
+.grid-item {
+  padding: 1em;
+  border: 1px solid #ddd;
+  text-align: center;
+} */
