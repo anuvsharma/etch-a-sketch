@@ -7,6 +7,9 @@ function makeGrid(grid_size){
         let grid_cell = document.createElement('div');
         grid_cell.style.backgroundColor = 'white';
         grid_cell.className = 'grid_cell';
+        grid_cell.addEventListener('mouseenter', () => {
+            grid_cell.style.backgroundColor = 'black';
+        })
         grid_container.appendChild(grid_cell);
     };
 };
